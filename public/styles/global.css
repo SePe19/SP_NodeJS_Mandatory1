@@ -1,0 +1,9 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/Green-Wallpaper-28.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+}
