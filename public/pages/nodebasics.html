@@ -1,11 +1,30 @@
-<div id="header">
-    <h1>NodeJS</h1>
-    <h2>What we have learned</h1>
-</div>
-<div id="bodytext">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fermentum neque. Pellentesque a porttitor ligula. Suspendisse eget purus dui. Aliquam a tortor fringilla, iaculis quam et, commodo nibh. Nulla purus metus, commodo eget egestas at, fermentum et tellus. Vestibulum tellus ipsum, maximus non dictum quis, congue sit amet lorem. Aenean malesuada leo vitae dui congue, accumsan eleifend quam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed laoreet felis, ac venenatis sem. Mauris rutrum velit et molestie volutpat. Vestibulum tempus nisl ut urna aliquam placerat mollis lacinia felis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fermentum neque. Pellentesque a porttitor ligula. Suspendisse eget purus dui. Aliquam a tortor fringilla, iaculis quam et, commodo nibh. Nulla purus metus, commodo eget egestas at, fermentum et tellus. Vestibulum tellus ipsum, maximus non dictum quis, congue sit amet lorem. Aenean malesuada leo vitae dui congue, accumsan eleifend quam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed laoreet felis, ac venenatis sem. Mauris rutrum velit et molestie volutpat. Vestibulum tempus nisl ut urna aliquam placerat mollis lacinia felis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fermentum neque. Pellentesque a porttitor ligula. Suspendisse eget purus dui. Aliquam a tortor fringilla, iaculis quam et, commodo nibh. Nulla purus metus, commodo eget egestas at, fermentum et tellus. Vestibulum tellus ipsum, maximus non dictum quis, congue sit amet lorem. Aenean malesuada leo vitae dui congue, accumsan eleifend quam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed laoreet felis, ac venenatis sem. Mauris rutrum velit et molestie volutpat. Vestibulum tempus nisl ut urna aliquam placerat mollis lacinia felis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fermentum neque. Pellentesque a porttitor ligula. Suspendisse eget purus dui. Aliquam a tortor fringilla, iaculis quam et, commodo nibh. Nulla purus metus, commodo eget egestas at, fermentum et tellus. Vestibulum tellus ipsum, maximus non dictum quis, congue sit amet lorem. Aenean malesuada leo vitae dui congue, accumsan eleifend quam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed laoreet felis, ac venenatis sem. Mauris rutrum velit et molestie volutpat. Vestibulum tempus nisl ut urna aliquam placerat mollis lacinia felis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fermentum neque. Pellentesque a porttitor ligula. Suspendisse eget purus dui. Aliquam a tortor fringilla, iaculis quam et, commodo nibh. Nulla purus metus, commodo eget egestas at, fermentum et tellus. Vestibulum tellus ipsum, maximus non dictum quis, congue sit amet lorem. Aenean malesuada leo vitae dui congue, accumsan eleifend quam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed laoreet felis, ac venenatis sem. Mauris rutrum velit et molestie volutpat. Vestibulum tempus nisl ut urna aliquam placerat mollis lacinia felis.</p>
+    <h1 id="node-h1">NodeJS</h1>
+    <h2 id="node-h2">What we have learned</h1><br>
+<div id="container">
+    <p>&emsp;Use the npm init command to create a package.json file for your application</p>
+    <p>&emsp;&emsp;<code>npm init</code></p>
+    <p>&emsp;Now you can edit what you would like to edit, or simply press enter until the file has been created.</p>
+    <p>&emsp;You might want to change index.js to app.js, but it's up to you.</p>
+</div><br>
+<div id="container">
+    <p>&emsp;Now you can create your very first Hello World in NodeJS:</p>
+    <p>&emsp;&emsp;<code>app.get('/', (req, res) => {
+        res.send('Hello World!')})
+</code></p>
+    <p>&emsp;req stands for request and res stands for response.</p>
+    <p>&emsp;Note that req always comes before res.</p>
+</div><br>
+<div id="container">
+    <p>&emsp;Next we need to make the app listen at a certain port:</p>
+    <p>&emsp;&emsp;<code>app.listen(8080, () => {
+        console.log("The server is running on port:", 8080)})
+    </code></p>
+    <p>&emsp;We have chosen port 8080 in this example, but you may choose your own.</p>
+    <p>&emsp;you can also create your port outside of app.listen.</p>
+    <p>&emsp;Note that app.listen is always at the very bottom of the JavaScript file.</p>
+</div><br>
+<div id="container">
+    <p>&emsp;When you have created a working app you can run it by writing:
+    <p>&emsp;&emsp;<code>node app.js</code></p>
+    <p>&emsp;Or whatever you have called your JavaScript file.</p>
 </div>

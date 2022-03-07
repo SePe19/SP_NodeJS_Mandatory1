@@ -35,5 +35,5 @@ app.get("/nodemon", (req, res) => {
 });
 
 app.listen(8080, () => {
-    console.log("The server is running on port: 8080", 8080)
+    console.log("The server is running on port:", 8080)
 });
